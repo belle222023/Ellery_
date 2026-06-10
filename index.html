@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ellery Queen — Spiritual Passages</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== INTRO SCREEN ========== -->
+  <div id="intro-screen" aria-hidden="true">
+    <div class="intro-cross"></div>
+    <div class="intro-rays"></div>
+    <div class="intro-content">
+      <p class="intro-eyebrow">Spiritual Passages</p>
+      <h1 class="intro-title">Ellery Queen</h1>
+      <p class="intro-verse">"I am the way, the truth, and the life."<br><span>— John 14:6</span></p>
+      <button class="intro-btn" id="intro-enter">Enter the Light</button>
+    </div>
+  </div>
+
+  <!-- ========== NAVIGATION ========== -->
+  <header id="site-header">
+    <nav class="nav-container">
+      <a href="index.html" class="nav-logo">Ellery Queen</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html"   class="nav-link">Home</a></li>
+        <li><a href="about.html"   class="nav-link">About</a></li>
+        <li><a href="book.html"    class="nav-link">The Book</a></li>
+        <li><a href="faith.html"   class="nav-link">Faith &amp; Mission</a></li>
+        <li><a href="writing.html" class="nav-link">Writing Life</a></li>
+        <li><a href="qa.html"      class="nav-link">Q&amp;A</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ========== HOME / HERO ========== -->
+  <section id="home" class="section hero-section">
+    <div class="hero-bg-cross" aria-hidden="true"></div>
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="container hero-content fade-in">
+      <p class="section-eyebrow">Baltimore, Maryland</p>
+      <h1 class="hero-heading">Spirit-Led Words<br>for Every Season of Life</h1>
+      <p class="hero-tagline">
+        "Jesus Christ the Son of God is the only way to gaining everlasting life —<br class="desktop-br">
+        He is the way, the truth, and the life."
+      </p>
+      <div class="hero-cta">
+        <a href="book.html" class="btn btn-primary">Discover the Book</a>
+        <a href="about.html" class="btn btn-ghost">Meet the Author</a>
+      </div>
+    </div>
+    <div class="scroll-hint" aria-hidden="true"><span></span></div>
+  </section>
+
+  <!-- ========== HOME PREVIEW — ABOUT ========== -->
+  <section class="section" style="background:var(--ivory);">
+    <div class="container">
+      <div class="section-header fade-in">
+        <p class="section-eyebrow">The Author</p>
+        <h2 class="section-title">Ellery Queen</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.5rem;margin-bottom:2.5rem;">
+        <div class="about-card fade-in">
+          <div class="card-icon">✝</div>
+          <h3>Who I Am</h3>
+          <p>A regular hard working American who loves Jesus Christ our Lord and Savior and thanks Him every second of every day for what He has done — not only for our sins but for the sins of the whole world.</p>
+        </div>
+        <div class="about-card fade-in">
+          <div class="card-icon">⚓</div>
+          <h3>Naval Veteran</h3>
+          <p>A submariner who served 11 years in the Navy. Service, discipline, and faith have shaped everything — who I am and everything I write.</p>
+        </div>
+        <div class="about-card fade-in">
+          <div class="card-icon">☀</div>
+          <h3>Living the Life</h3>
+          <p>Living the Christian life to the utmost, every second of every day, praising Christ Jesus with every thought of mind and spirit. It is possible — we can succeed in Christ in anything we do.</p>
+        </div>
+      </div>
+      <div class="fade-in" style="text-align:center;">
+        <a href="about.html" class="btn btn-navy">Read Full Story</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== HOME PREVIEW — BOOK ========== -->
+  <section class="section" style="background:var(--white);">
+    <div class="container">
+      <div class="section-header fade-in">
+        <p class="section-eyebrow">Now Available</p>
+        <h2 class="section-title">Spiritual Passages</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div style="display:grid;grid-template-columns:240px 1fr;gap:3rem;align-items:center;" class="fade-in book-home-grid">
+        <div style="text-align:center;">
+        <img src="book_ellery.png" alt="Spiritual Passages by Ellery Queen — book cover" class="book-cover-img" />          <a href="https://www.amazon.com/Spiritual-Passages-Ellery-Queen/dp/1512717398/ref=sr_1_1?crid=UB8PMF33KV1C&dib=eyJ2IjoiMSJ9.Ekj20Jxl6ONsqxh_ZAB57diwcQUvYFWXKinssCANlqWuHlGysTD9eCAnIQLYgIJx.tKe3kzx_t9GOrgEgv1a1AWQJ4JK5-DRQQ_-D0AQBu4o&dib_tag=se&keywords=Spiritual+Passages+ellery&qid=1764853674&s=books&sprefix=spiritual+passages+eller,stripbooks-intl-ship,267&sr=1-1" target="_blank" rel="noopener" class="buy-btn" style="display:inline-block;margin-top:1.25rem;">Buy on Amazon</a>
+        </div>
+        <div>
+          <p class="section-eyebrow" style="text-align:left;">By Ellery Queen</p>
+          <h3 style="font-family:var(--serif);font-size:clamp(1.4rem,2.5vw,2rem);color:var(--navy);margin-bottom:1rem;">A Book That Will Take You Places Spiritually You Could Not Even Imagine</h3>
+          <p style="color:var(--muted);margin-bottom:1.5rem;">Whether you are a believer, a Christian, or not — this book will take you places you have never been before spiritually. It is definitely worth reading if you need guidance in this life, from the good times and the bad. This spiritual book will help you through anything.</p>
+          <p style="color:var(--muted);margin-bottom:2rem;">The passages relate to everyday challenges of life — from something as simple as going to the store to get a loaf of bread, to bringing your soul, mind, and spirit to Jesus Christ literally every second of every day.</p>
+          <a href="book.html" class="btn btn-primary">Learn More About the Book</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== HOME — TAGLINE ========== -->
+  <section class="section faith-section" style="padding:5rem 0;">
+    <div class="container">
+      <div class="tagline-banner fade-in" style="border-top:none;padding-top:0;">
+        <div class="tagline-cross" aria-hidden="true"></div>
+        <p class="tagline-main">Jesus Christ the Son of God is the only way to gaining everlasting life.</p>
+        <p class="tagline-sub">He is the way, the truth, and the life. — John 14:6</p>
+        <div style="margin-top:2rem;">
+          <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-cross" aria-hidden="true"></div>
+      <p class="footer-name">Ellery Queen</p>
+      <p class="footer-tagline">"Jesus Christ is the way, the truth, and the life." — John 14:6</p>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="book.html">The Book</a>
+        <a href="faith.html">Faith &amp; Mission</a>
+        <a href="writing.html">Writing Life</a>
+        <a href="qa.html">Q&amp;A</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <p class="footer-copy">&copy; <span id="footer-year"></span> Ellery Queen. Baltimore, Maryland. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <style>
+    @media (max-width: 700px) {
+      .book-home-grid { grid-template-columns: 1fr !important; }
+    }
+  </style>
+
+  <script src="script.js"></script>
+</body>
+</html>
