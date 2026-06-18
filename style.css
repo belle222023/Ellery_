@@ -493,6 +493,69 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 600; line-height: 1.2; 
   text-align: left;
 }
 
+/* ── AUTHOR PORTRAIT ── */
+.author-intro {
+  display: grid;
+  grid-template-columns: minmax(220px, 320px) 1fr;
+  gap: 2.5rem;
+  align-items: center;
+  margin-bottom: 3.5rem;
+}
+
+.author-portrait-frame {
+  background: var(--ivory);
+  border: 1px solid var(--light);
+  border-top: 3px solid var(--gold);
+  border-radius: 2px;
+  padding: 0.75rem;
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.author-portrait-frame:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(26, 39, 68, 0.1);
+}
+
+.author-portrait-frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 1px;
+}
+
+.author-portrait-caption {
+  text-align: center;
+  font-family: var(--serif);
+  font-size: 0.95rem;
+  color: var(--navy);
+  margin-top: 0.85rem;
+  letter-spacing: 0.02em;
+}
+
+.author-intro-text h2 {
+  font-family: var(--serif);
+  color: var(--navy);
+  font-size: clamp(1.4rem, 3vw, 1.9rem);
+  margin-bottom: 0.85rem;
+}
+
+.author-intro-text p {
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+@media (max-width: 700px) {
+  .author-intro {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .author-portrait-frame {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+}
+
 /* ── BOOK SECTION ── */
 .book-section { background: var(--ivory); }
 
